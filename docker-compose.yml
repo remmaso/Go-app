@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  my-go-app:
+    image: my-go-app
+    ports:
+      - "8081:8080"
